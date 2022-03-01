@@ -1,10 +1,5 @@
-import { useState } from 'react'
+import List from "./components/List";
 
-function App() {
-
-  return (
-    <h1>Hello word</h1>
-  )
+export default function App(){
+  return <List initialItems={['Julya', 'André', 'Pietro']}/>
 }
-
-export default App
